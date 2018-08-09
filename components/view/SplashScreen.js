@@ -1,34 +1,29 @@
 /* Parent.js */
-import React from 'react'
-import {Text, StyleSheet, View} from 'react-native'
+import React from "react";
+import { Text, StyleSheet, View, Image } from "react-native";
 
-import LoginScreen from './LoginScreen'
-
+import LoginScreen from "./LoginScreen";
 
 export default class SplashScreen extends React.Component {
+  // constructor(props){
+  //     super(props);
+  //     this.state = {
+  //         timePassed: false,
+  //     };
+  // }
 
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-    //         timePassed: false,
-    //     };
-    // }
-    
-    // componentDidMount() {
-    //     setInterval( () => {
-    //         this.setTimePassed();
-    //     },1000);
-    // }
-    
-    // setTimePassed() {
-    //     console.log('logged');
-    //     this.setState({timePassed: true});
-    // }
-  
-  render() { 
+  // componentDidMount() {
+  //     setInterval( () => {
+  //         this.setTimePassed();
+  //     },1000);
+  // }
 
+  // setTimePassed() {
+  //     console.log('logged');
+  //     this.setState({timePassed: true});
+  // }
 
-
+  render() {
     // if (!this.state.timePassed) {
     //     return <SplashScreen/>;
     // } else {
@@ -36,11 +31,19 @@ export default class SplashScreen extends React.Component {
     // }
 
     return (
-      <View style = {{marginTop:100, backgroundColor:'palegreen', fontSize: 20,
-      fontWeight: 'bold'}}>
-        <Text style={{textAlign: 'center'}}> Awfis Cafe   Splash Screen</Text>
+      <View
+        style={{
+          flex: 1,
+          backgroundColor: "palegreen",
+          fontSize: 20,
+          fontWeight: "bold"
+        }}
+      >
+        <Image
+          style={{ resizeMode: "cover" }}
+          source={require("./splash_bg.jpg")}
+        />
       </View>
-    
     );
   }
 }

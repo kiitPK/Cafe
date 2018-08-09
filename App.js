@@ -30,7 +30,7 @@ export default class App extends Component<Props> {
   componentDidMount() {
     setInterval(() => {
       this.setTimePassed();
-    }, 1000);
+    }, 3000);
   }
 
   setTimePassed() {
