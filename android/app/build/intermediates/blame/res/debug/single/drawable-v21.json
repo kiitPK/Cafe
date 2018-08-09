@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/prakashkumar/.android/build-cache/f166bd9566aa600ed88bf181176656beb82e55dc/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

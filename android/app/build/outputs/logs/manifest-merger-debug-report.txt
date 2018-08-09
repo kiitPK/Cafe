@@ -1,0 +1,128 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:2:5-23
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.56.0] /Users/prakashkumar/.android/build-cache/fcebe9972e6d2676041672a8d758a22ca58efa32/output/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.56.0] /Users/prakashkumar/.android/build-cache/fcebe9972e6d2676041672a8d758a22ca58efa32/output/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/prakashkumar/.android/build-cache/260fdce1681f8e5686f950f6ee44334c076dcbe7/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/prakashkumar/.android/build-cache/26bbdc44a80ae86f2cf90d906e9fa14dd03aa5f7/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/prakashkumar/.android/build-cache/f257a633fc28a4554192d008455a9d8249f86b61/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/prakashkumar/.android/build-cache/92db3e7ee20d082a9553e8ca3866562604262a61/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/prakashkumar/.android/build-cache/8d379423a969ad18be0ebd7d1c82d027dd8fa5a7/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/prakashkumar/.android/build-cache/c3e5d37a50504070c44ef470cb3c27005adb6f26/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/prakashkumar/.android/build-cache/a7131de114db8bdc3c3c9ce6d384f6c67fb8723a/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/prakashkumar/.android/build-cache/f166bd9566aa600ed88bf181176656beb82e55dc/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/prakashkumar/.android/build-cache/ff3ccb883543866e9452a607a7a15043d2dab613/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/prakashkumar/.android/build-cache/043c2e566fdba1aa671a1944d1abd1b689d65e0e/output/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/prakashkumar/.android/build-cache/e6a22b4b1088f9406ad4ed71d42a2c3d2d6c5c10/output/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:allowBackup
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:icon
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:theme
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.cafe.MainActivity
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.facebook.react:react-native:0.56.0] /Users/prakashkumar/.android/build-cache/fcebe9972e6d2676041672a8d758a22ca58efa32/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] /Users/prakashkumar/.android/build-cache/260fdce1681f8e5686f950f6ee44334c076dcbe7/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/prakashkumar/.android/build-cache/26bbdc44a80ae86f2cf90d906e9fa14dd03aa5f7/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/prakashkumar/.android/build-cache/f257a633fc28a4554192d008455a9d8249f86b61/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/prakashkumar/.android/build-cache/92db3e7ee20d082a9553e8ca3866562604262a61/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/prakashkumar/.android/build-cache/8d379423a969ad18be0ebd7d1c82d027dd8fa5a7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/prakashkumar/.android/build-cache/c3e5d37a50504070c44ef470cb3c27005adb6f26/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/prakashkumar/.android/build-cache/a7131de114db8bdc3c3c9ce6d384f6c67fb8723a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/prakashkumar/.android/build-cache/f166bd9566aa600ed88bf181176656beb82e55dc/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/prakashkumar/.android/build-cache/ff3ccb883543866e9452a607a7a15043d2dab613/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/prakashkumar/.android/build-cache/3376adeca244dfabb389857ad062136a6d4b10bd/output/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/prakashkumar/.android/build-cache/97af96f3a485073f4e0bbc70b18ac32aa444d334/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/prakashkumar/.android/build-cache/a4a6c870d9de3ad153817448109a3504f717f849/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /Users/prakashkumar/.android/build-cache/29a9196afcb778899917f4ac4d33545ac91af387/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/prakashkumar/.android/build-cache/f190bebe79caf556cbbd8360fa3c915f3371496f/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/prakashkumar/.android/build-cache/071f315bcb9354286ebba976826bf7e12c3e9d65/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/prakashkumar/.android/build-cache/b0d8a935ca3748acee0cc7d81b1ca6da82930473/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/prakashkumar/.android/build-cache/043c2e566fdba1aa671a1944d1abd1b689d65e0e/output/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/prakashkumar/.android/build-cache/260fdce1681f8e5686f950f6ee44334c076dcbe7/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/prakashkumar/.android/build-cache/26bbdc44a80ae86f2cf90d906e9fa14dd03aa5f7/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/prakashkumar/.android/build-cache/f257a633fc28a4554192d008455a9d8249f86b61/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/prakashkumar/.android/build-cache/92db3e7ee20d082a9553e8ca3866562604262a61/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/prakashkumar/.android/build-cache/8d379423a969ad18be0ebd7d1c82d027dd8fa5a7/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/prakashkumar/.android/build-cache/c3e5d37a50504070c44ef470cb3c27005adb6f26/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/prakashkumar/.android/build-cache/a7131de114db8bdc3c3c9ce6d384f6c67fb8723a/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/prakashkumar/.android/build-cache/f166bd9566aa600ed88bf181176656beb82e55dc/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/prakashkumar/.android/build-cache/56172dedd827085fb618602fbf0de264450093eb/output/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/prakashkumar/.android/build-cache/ff3ccb883543866e9452a607a7a15043d2dab613/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/prakashkumar/.android/build-cache/ff3ccb883543866e9452a607a7a15043d2dab613/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/prakashkumar/.android/build-cache/ff3ccb883543866e9452a607a7a15043d2dab613/output/AndroidManifest.xml:26:13-58
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

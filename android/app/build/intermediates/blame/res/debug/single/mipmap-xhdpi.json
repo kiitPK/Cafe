@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/prakashkumar/Desktop/reactdemo/Cafe/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    }
+]
