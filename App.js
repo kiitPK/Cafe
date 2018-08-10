@@ -39,6 +39,8 @@ export default class App extends Component<Props> {
   }
 
   render() {
+
+    // Loading Splash Screen
     if (!this.state.timePassed) {
       return <SplashScreen />;
     } else {
