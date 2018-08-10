@@ -13,11 +13,6 @@ import SplashScreen from "./components/view/SplashScreen";
 import Home from "./components/view/Home";
 import { StackNavigator } from "react-navigation";
 
-const AppNavigator = StackNavigator({
-  LoginScreen: { screen: LoginScreen },
-  Home: { screen: Home }
-});
-
 type Props = {};
 export default class App extends Component<Props> {
   constructor(props) {
@@ -73,4 +68,9 @@ const styles = StyleSheet.create({
     color: "#333333",
     marginBottom: 5
   }
+});
+
+const AppNavigator = StackNavigator({
+  LoginScreen: { screen: LoginScreen },
+  Home: { screen: Home }
 });

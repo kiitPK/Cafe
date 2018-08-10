@@ -47,7 +47,6 @@ export default class AsyncStorageTest extends Component {
     //   .catch(error => {
     //     //this.setState({ status: false, message: null });
     //   });
-    console.log("22222222222");
 
     getLoginFromServer()
       .then(data => {
@@ -57,6 +56,8 @@ export default class AsyncStorageTest extends Component {
       .catch(error => {
         console.log("------------" + error);
       });
+
+    console.log("22222222222");
 
     console.log("3333333333");
   }

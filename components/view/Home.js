@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
 
-class Home extends Component {
+export default class Home extends Component {
   render() {
     return (
       <View>
@@ -10,5 +10,3 @@ class Home extends Component {
     );
   }
 }
-
-export default Home;

@@ -8,6 +8,7 @@ import {
   Button,
   TextInput
 } from "react-native";
+
 import { getLoginFromServer } from "../network/Server";
 
 export default class LoginScreen extends React.Component {
@@ -28,9 +29,7 @@ export default class LoginScreen extends React.Component {
         console.log("2222222222211");
         if (this.state.status) {
           console.log("LoggedIn Successfully...!!!");
-          //alert(this.state.message);
           this.props.navigation.navigate("Home");
-          //this.props.navigate.navigation("Home");
         } else {
           console.log("LoggedIn failed...!!!!");
           alert(this.state.message);
