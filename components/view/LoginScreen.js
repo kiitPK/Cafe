@@ -1,48 +1,61 @@
 /* Parent.js */
-import React from 'react'
-import {Text, StyleSheet, View, ScrollView,Button,TextInput} from 'react-native'
-// import CardView from 'react-native-cardview'
-
+import React from "react";
+import {
+  Text,
+  StyleSheet,
+  View,
+  ScrollView,
+  Button,
+  TextInput
+} from "react-native";
+import { getLoginFromServer } from "../network/Server";
 
 export default class LoginScreen extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      username: null,
+      password: null,
+      status: false,
+      message: null
+    };
+  }
 
-
-    constructor(props){
-        super(props)
-        this.state = {
-            username: '',
-            password: '',
+  onPressLogin() {
+    getLoginFromServer()
+      .then(data => {
+        this.setState({ status: data.status, message: data.message });
+        console.log("2222222222211");
+        if (this.state.status) {
+          console.log("LoggedIn Successfully...!!!");
+          //alert(this.state.message);
+          this.props.navigation.navigate("Home");
+          //this.props.navigate.navigation("Home");
+        } else {
+          console.log("LoggedIn failed...!!!!");
+          alert(this.state.message);
         }
-    }
+      })
+      .catch(error => {
+        console.log("------------" + error);
+      });
+  }
 
-    onPressLogin(){
-
-        if(this.state.username === 'admin' && this.state.password === 'admin'){
-            console.log('LoggedIn Successfully...!!!');
-        }else{
-            console.log('LoggedIn failed...!!!!');
-        }
-    }
-
-  render() { 
-
+  render() {
     return (
-
- <ScrollView style={{padding: 20}}>
-    <Text 
-        style={{fontSize: 27,textAlign:'center'}}>
-        Login
-    </Text>
-    <TextInput placeholder='Username' 
-    onChangeText = { (text) => this.setState({username:text})}/>
-    <TextInput placeholder='Password' 
-    onChangeText = { (text) => this.setState({password:text})}/>
-    <View style={{margin:7}} />
-    <Button 
-             onPress={() => this.onPressLogin()}
-            title="Submit"
+      <ScrollView style={{ padding: 20 }}>
+        <Text style={{ fontSize: 27, textAlign: "center" }}>Login</Text>
+        <TextInput
+          placeholder="Username"
+          onChangeText={text => this.setState({ username: text })}
         />
-    </ScrollView>
+        <TextInput
+          placeholder="Password"
+          onChangeText={text => this.setState({ password: text })}
+        />
+        <View style={{ margin: 7 }} />
+        <Button onPress={() => this.onPressLogin()} title="Submit" />
+      </ScrollView>
     );
   }
 }
